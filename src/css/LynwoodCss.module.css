@@ -1,0 +1,79 @@
+input {
+  text-transform: capitalize;
+}
+
+h1,
+h2 {
+  text-transform: capitalize;
+}
+
+p {
+  color: black;
+}
+
+[class*="roundedBorder"] {
+  border: 2px;
+  border-radius: 25px;
+}
+
+[class*="bottomMargin"] {
+  margin-bottom: inherit;
+}
+
+[class*="fiveMargin"] {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+[class*="centerText"] {
+  text-align: center;
+}
+
+[class*="black-text"] {
+  font-size: larger !important;
+  color: black !important;
+}
+
+[class*="card-img-top"] {
+  border-bottom: 5px #f7941e solid !important;
+  border-radius: 0;
+}
+
+[class*="col-xl-4"] {
+  background-color: #f6f7f7;
+  border-bottom: transparent !important;
+}
+[class*="clickable"] {
+  cursor: pointer;
+}
+
+[class*="orangeText"] {
+  color: #f7941e;
+}
+
+[class*="benefitColumns"] {
+  height: 100%;
+  background-color: #e2e5e7;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  width: 112%;
+}
+
+@media only screen and (max-width: 1196px) {
+  [class*="benefitColumns"] {
+    width: 100% !important;
+  }
+}
+
+[class*="benefitsContainer"] {
+  height: 100%;
+  background-color: #e2e5e7;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}

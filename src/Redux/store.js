@@ -1,0 +1,27 @@
+import { createStore } from "redux";
+
+function reducer(state, action) {
+  if (!state) {
+    return {
+      user: null,
+      userRoles: []
+    };
+  }
+  if (action.type === "SET_USERROLES") {
+    return {
+      ...state,
+      userRoles: action.userRoles
+    };
+  }
+  if (action.type === "SET_USER") {
+    return {
+      ...state,
+      user: action.user
+    };
+  }
+}
+
+export default createStore(
+  reducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
