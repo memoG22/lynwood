@@ -119,6 +119,16 @@ class Blog extends React.Component {
           </div>
         </div>
         <br />
+        <div className="col-xl-12">
+          <a
+            className="orangeText"
+            onMouseEnter={() => {}}
+            href="https://www.governmentjobs.com/careers/lynwoodca"
+          >
+            <h1>Discover All Open Career Opportunities At Lynwood Here</h1>
+          </a>
+        </div>
+        <br />
 
         <div className="row centerText">
           <div className="col-xl-12">
@@ -205,17 +215,21 @@ class Blog extends React.Component {
           </div>
         </div>
 
+        <br />
+        <div className="col-xl-12">
+          <a
+            target="blank"
+            className="orangeText"
+            onMouseEnter={() => {}}
+            href="https://www.instagram.com/mylynwoodca/"
+          >
+            <h1>Follow us on instagram</h1>
+          </a>
+        </div>
+        <br />
+
         <div className="row centerText fiveMargin">
           {" "}
-          <div className="col-xl-12">
-            <a
-              className="orangeText"
-              onMouseEnter={() => {}}
-              href="https://www.governmentjobs.com/careers/lynwoodca"
-            >
-              <h1>Discover All Open Career Opportunities At Lynwood Here</h1>
-            </a>
-          </div>
           {this.state.instagramInfo.map(image => (
             <div className="col-xl-4 bottomMargin" key={image.id}>
               <a target="blank" href="https://www.instagram.com/mylynwoodca/">

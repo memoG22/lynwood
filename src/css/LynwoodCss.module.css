@@ -51,6 +51,7 @@ p {
 
 [class*="orangeText"] {
   color: #f7941e;
+  text-align: center;
 }
 
 [class*="benefitColumns"] {
