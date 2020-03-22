@@ -218,13 +218,15 @@ class Blog extends React.Component {
           </div>
           {this.state.instagramInfo.map(image => (
             <div className="col-xl-4 bottomMargin" key={image.id}>
-              <img
-                className="roundedBorder"
-                alt="Instagram Images"
-                height="200"
-                width="100%"
-                src={image.images.standard_resolution.url}
-              />
+              <a target="blank" href="https://www.instagram.com/mylynwoodca/">
+                <img
+                  className="roundedBorder"
+                  alt="Instagram Images"
+                  height="200"
+                  width="100%"
+                  src={image.images.standard_resolution.url}
+                />
+              </a>
             </div>
           ))}
         </div>
